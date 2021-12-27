@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" href="./assets/ico/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Contacts</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#aboutmyself">About Myself</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#codeexample">Code Example</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#experience">Experience</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#education">Education</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#language">Language</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="left-column">
+        <section class="profile">
+          <img class="profile__photo" src="./assets/img/foto.jpg" alt="my photo">
+          <h1 class="profile__name">Daniyar Baitenov</h1>
+          <h5 class="profile__text">Future Frontend Developer</h5>
+        </section>
+        <section class="contacts">
+          <h2 class="contacts__title title" id="contacts">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <img class="contacts__img" src="./assets/ico/location.png" alt="location">
+              <span>Almaty, Kazakhstan</span>
+            </li>
+            <li class="contacts__item">
+              <img class="contacts__img" src="./assets/ico/phone.png" alt="phone">
+              <a class="contacts__link" target="_blank" href="tel:87473629868">+7 747 362 98 68</a>
+            </li>
+            <li class="contacts__item">
+              <img class="contacts__img" src="./assets/ico/email.png" alt="email">
+              <a class="contacts__link" target="_blank" href="mailto:danikman89@gmail.com:">danikman89@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+              <img class="contacts__img" src="./assets/ico/telegram.png" alt="telegram">
+              <a class="contacts__link" target="_blank" href="https://t.me/danikman89">danikman89</a>
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2 class="skills__title title" id="skills">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML5, CSS3</li>
+            <li class="skills__item">JavaScript Basics</li>
+            <li class="skills__item">Git, GitHub</li>
+            <li class="skills__item">Figma(for web development)</li>
+          </ul>
+        </section>
+        <section class="language">
+          <h2 class="skills__title title" id="language">Language</h2>
+          <ul class="language__list">
+            <li class="language__item">English level - A2</li>
+            <li class="language__item">Kazakh - Native</li>
+            <li class="language__item">Russian - Advancet</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-column">
+        <section class="about-myself">
+          <h2 class="about-myself__title title-right" id="aboutmyself">About Myself</h2>
+          <p>Hi! I’m a future frontend developer. I like to study and learn something new. I like to read books, listen
+            to
+            music, watch films. I lead active and healhy lifestyle. One of my favourite hobbies is running. I really
+            like
+            running because first of all it's very healthy and useful for my body and mind. I believe that my ability to
+            learn and learn new things will help me become an experienced frontend developer in the future.</p>
+        </section>
+        <section class="education">
+          <h2 class="about-myself__title title-right" id="education">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <span class="education__name">University:</span>
+              <ul>
+                <li>Kazakh Leading Academy of Architecture and Civil Engineering</li>
+                <li>Specialization: Construction Engineer</li>
+                <li>Years: 2007-2011</li>
+              </ul>
+            </li>
+            <li class="education__item">
+              <span class="education__name">Courses:</span>
+              <ul>
+                <li>CS50 lectures on Youtube</li>
+                <li>HTML/CSS on Code Basics</li>
+                <li>JavaScript on Udemy</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="experience">
+          <h2 class="about-myself__title title-right" id="experience">Experience</h2>
+          <ul class="experience__list">
+            <li class="experience__item">
+              <a href="https://danikman89.github.io/rsschool-cv/cv" class="experience__link" target="_blank">
+                CV Markdown
+              </a>
+            </li>
+            <li class="experience__item">
+              <a class="experience__link" href="https://danikman89.github.io/rsschool-cv/" target="_blank">
+                CV Html
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <h2 class="about-myself__title title-right" id="codeexample">Code Example</h2>
+          <pre>
+            <code>
+              function multiply(a, b){
+              return a * b
+              }
+            </code>
+          </pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/danikman89" class="logo-git" target="_blank">
+        <img class="footer__img-git" src="./assets/ico/github.png" alt="github">
+      </a>
+      <span class="footer__span">2021</span>
+      <a href="https://rs.school/js/" class="logo-rsschool" target="_blank">
+        <img class="footer__img-rs" src="./assets/ico/rsschool.ico" alt="rsschool">
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
