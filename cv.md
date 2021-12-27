@@ -4,6 +4,7 @@
 + **Phone:** +7 747 362 98 68
 + **E-mail:** danikman89@gmail.com
 + **GitHub:** [danikman89](https://github.com/danikman89)
++ **Discord:** Danikman
 
 ## About Myself:
 <p> I set myself the goal of becoming a programmer in 2022. I like learning and learning new things, solving difficult
